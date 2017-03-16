@@ -6,24 +6,22 @@
 Weexpack is our next generation of engineering development kits, it helps to setup weex application from scratch quickly. With simple commands, developers could create a weex project, add different platform template, could install plugins from local, GitHub or weex market, could pack up his application project and run on mobile. For those who would like to share his own plugins, he could publish them to the weex market.
 
 
-[weex-toolkit](https://github.com/weexteam/weex-toolkit) ([Installing Guide](https://github.com/weexteam/weex-toolkit)) integrates the weexpack commands，you can run weex-toolkit commands to call weexpack functions。For example, we add an iOS app template：
-
+BTW, weexpack has been integrated to [weex-toolkit](https://github.com/weexteam/weex-toolkit) as second level CLI, which means all weexpack commands can be executed with "weex xxx" instead of using "weexpack xxx". For example, 
 ``` bash
-# use weexpack
+To add platform,
 $ weexpack platform add ios
 
-# use weex-toolkit
+is equal to
 $ weex platform add  ios
 
 ```
 
-Add a weex-chart plugin
+To add a plugin "weex-chart",
 
 ``` bash
-# use weexpack
 $ weexpack plugin add weex-chart
 
-# use weex-toolkit
+is equal to
 $ weex plugin add  weex-chart
 
 ```
